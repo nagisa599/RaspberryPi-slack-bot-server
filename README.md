@@ -1,2 +1,24 @@
-# RaspberryPi-slack-bot-server
-# RaspberryPi-slack-bot-server
+# 環境構築
+### 1. 仮想環境を作成
+`venv` モジュールを使用して仮想環境を作成します。以下のコマンドを実行してください。
+```bash
+python3 -m venv venv
+```
+
+### 2. 仮想環境を有効にする
+作成した仮想環境を有効にするには、次のコマンドを実行します。
+```bash
+source venv/bin/activate
+```
+
+### 3. ライブラリーをインストール(必要に応じて)
+`仮想環境内`で pip を使用してパッケージをインストールします。
+```bash
+pip install slack_bot
+```
+
+### appファイルを実行
+仮想環境が有効になっている状態で、`app.py` を実行します。
+```bash
+python app.py
+```
